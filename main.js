@@ -12,6 +12,7 @@ request.onload = function() {
       card.setAttribute("class", "card");
 
       const h1 = document.createElement("h1");
+      h1.setAttribute("class", "h1");
       h1.textContent = movie.title;
 
       const p = document.createElement("p");
